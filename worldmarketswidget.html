@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Alpha World Markets Widget</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: #0f0f0f;
+      height: 100%;
+      width: 100%;
+    }
+    .widget-wrapper {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="widget-wrapper">
+    <!-- TradingView Widget BEGIN -->
+    <div class="tradingview-widget-container">
+      <div class="tradingview-widget-container__widget"></div>
+      <div class="tradingview-widget-copyright">
+        <a href="https://www.tradingview.com/markets/" rel="noopener nofollow" target="_blank">
+          <span class="blue-text">World markets</span>
+        </a><span class="trademark"> by TradingView</span>
+      </div>
+      <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
+      {
+        "colorTheme": "dark",
+        "dateRange": "12M",
+        "locale": "en",
+        "largeChartUrl": "",
+        "isTransparent": false,
+        "showFloatingTooltip": false,
+        "plotLineColorGrowing": "rgba(41, 98, 255, 1)",
+        "plotLineColorFalling": "rgba(41, 98, 255, 1)",
+        "gridLineColor": "rgba(240, 243, 250, 0)",
+        "scaleFontColor": "#DBDBDB",
+        "belowLineFillColorGrowing": "rgba(41, 98, 255, 0.12)",
+        "belowLineFillColorFalling": "rgba(41, 98, 255, 0.12)",
+        "belowLineFillColorGrowingBottom": "rgba(41, 98, 255, 0)",
+        "belowLineFillColorFallingBottom": "rgba(41, 98, 255, 0)",
+        "symbolActiveColor": "rgba(41, 98, 255, 0.12)",
+        "tabs": [
+          {
+            "title": "Alpha 40k Watchlist",
+            "symbols": [
+              { "s": "NASDAQ:PLTR", "d": "", "logoid": "palantir", "currency-logoid": "country/US" },
+              { "s": "NYSE:LMND", "d": "", "logoid": "lemonade", "currency-logoid": "country/US" },
+              { "s": "NYSE:PATH", "d": "", "logoid": "uipath", "currency-logoid": "country/US" },
+              { "s": "NASDAQ:TSLA", "d": "", "logoid": "tesla", "currency-logoid": "country/US" },
+              { "s": "NYSE:ZETA", "d": "", "logoid": "zeta", "currency-logoid": "country/US" },
+              { "s": "NYSE:NU", "d": "", "logoid": "nu-holdings", "currency-logoid": "country/US" },
+              { "s": "NASDAQ:DLO", "d": "", "logoid": "dlocal", "currency-logoid": "country/US" },
+              { "s": "NASDAQ:MELI", "d": "", "logoid": "mercadolibre", "currency-logoid": "country/US" },
+              { "s": "NYSE:BABA", "d": "", "logoid": "alibaba", "currency-logoid": "country/US" },
+              { "s": "NYSE:XPEV", "d": "", "logoid": "xpeng", "currency-logoid": "country/US" },
+              { "s": "NASDAQ:GRAB", "d": "", "logoid": "grab", "currency-logoid": "country/US" },
+              { "s": "NYSE:SES", "d": "", "logoid": "ses-ai", "currency-logoid": "country/US" },
+              { "s": "NASDAQ:FLNC", "d": "", "logoid": "fluence-energy", "currency-logoid": "country/US" },
+              { "s": "NASDAQ:EOSE", "d": "", "logoid": "eos-energy-enterprises", "currency-logoid": "country/US" },
+              { "s": "NASDAQ:RXRX", "d": "", "logoid": "recursion", "currency-logoid": "country/US" },
+              { "s": "NYSE:OSCR", "d": "", "logoid": "oscar-health", "currency-logoid": "country/US" },
+              { "s": "NYSE:HIMS", "d": "", "logoid": "hims-and-hers-health", "currency-logoid": "country/US" },
+              { "s": "NASDAQ:TEM", "d": "", "logoid": "tempus-ai", "currency-logoid": "country/US" },
+              { "s": "NASDAQ:TMDX", "d": "", "logoid": "transmedics", "currency-logoid": "country/US" },
+              { "s": "NASDAQ:CIFR", "d": "", "logoid": "cipher-mining", "currency-logoid": "country/US" },
+              { "s": "NASDAQ:IREN", "d": "", "logoid": "iris-energy", "currency-logoid": "country/US" },
+              { "s": "NASDAQ:CLSK", "d": "", "logoid": "cleanspark", "currency-logoid": "country/US" },
+              { "s": "NASDAQ:NBIS", "d": "", "logoid": "nebius-group-nv", "currency-logoid": "country/US" },
+              { "s": "NASDAQ:COIN", "d": "", "logoid": "coinbase", "currency-logoid": "country/US" },
+              { "s": "NASDAQ:SOFI", "d": "", "logoid": "sofi", "currency-logoid": "country/US" },
+              { "s": "NYSE:FOUR", "d": "", "logoid": "shift4-payments", "currency-logoid": "country/US" },
+              { "s": "NASDAQ:POET", "d": "", "logoid": "poet-technologies", "currency-logoid": "country/US" },
+              { "s": "NYSE:JOBY", "d": "", "logoid": "joby-aviation", "currency-logoid": "country/US" },
+              { "s": "NASDAQ:LAES", "d": "", "logoid": "sealsq", "currency-logoid": "country/US" },
+              { "s": "NASDAQ:SANA", "d": "", "logoid": "sana-biotechnology", "currency-logoid": "country/US" },
+              { "s": "NASDAQ:ABCL", "d": "", "logoid": "abcellera-biologics", "currency-logoid": "country/US" }
+            ],
+            "originalTitle": "Indices"
+          },
+          {
+            "title": "Small Cap Long Term Buys - 10x Potential",
+            "symbols": [
+              { "s": "NASDAQ:CIFR", "d": "", "logoid": "cipher-mining", "currency-logoid": "country/US" },
+              { "s": "NYSE:LMND", "d": "", "logoid": "lemonade", "currency-logoid": "country/US" },
+              { "s": "NYSE:ZETA", "d": "", "logoid": "zeta", "currency-logoid": "country/US" },
+              { "s": "NASDAQ:TMDX", "d": "", "logoid": "transmedics", "currency-logoid": "country/US" },
+              { "s": "NYSE:OSCR", "d": "", "logoid": "oscar-health", "currency-logoid": "country/US" },
+              { "s": "NYSE:HIMS", "d": "", "logoid": "hims-and-hers-health", "currency-logoid": "country/US" },
+              { "s": "NASDAQ:FLNC", "d": "", "logoid": "fluence-energy", "currency-logoid": "country/US" },
+              { "s": "NASDAQ:EOSE", "d": "", "logoid": "eos-energy-enterprises", "currency-logoid": "country/US" }
+            ],
+            "originalTitle": "Futures"
+          },
+          {
+            "title": "Sector Equity Funds",
+            "symbols": [
+              { "s": "AMEX:XLF", "d": "", "logoid": "sector/financial", "currency-logoid": "country/US" },
+              { "s": "AMEX:XLV", "d": "", "logoid": "sector/health-care", "currency-logoid": "country/US" },
+              { "s": "AMEX:XLK", "d": "", "logoid": "sector/technology", "currency-logoid": "country/US" },
+              { "s": "AMEX:XLE", "d": "", "logoid": "sector/energy", "currency-logoid": "country/US" },
+              { "s": "AMEX:XLI", "d": "", "logoid": "sector/industrial", "currency-logoid": "country/US" },
+              { "s": "AMEX:XLP", "d": "", "logoid": "sector/consumer-staples", "currency-logoid": "country/US" },
+              { "s": "AMEX:XLY", "d": "", "logoid": "sector/consumer-discretionary", "currency-logoid": "country/US" },
+              { "s": "AMEX:XLU", "d": "", "logoid": "sector/utilities", "currency-logoid": "country/US" },
+              { "s": "AMEX:XLC", "d": "", "logoid": "communication-services", "currency-logoid": "country/US" },
+              { "s": "AMEX:XLB", "d": "", "logoid": "sector/materials", "currency-logoid": "country/US" }
+            ],
+            "originalTitle": "Bonds"
+          },
+          {
+            "title": "Small Cap Long Term Buys - 100x Potential",
+            "symbols": [
+              { "s": "NASDAQ:ONDS", "d": "", "logoid": "ondas", "currency-logoid": "country/US" },
+              { "s": "NASDAQ:POET", "d": "", "logoid": "poet-technologies", "currency-logoid": "country/US" },
+              { "s": "NASDAQ:ABCL", "d": "", "logoid": "abcellera-biologics", "currency-logoid": "country/US" },
+              { "s": "NYSE:SES", "d": "", "logoid": "ses-ai", "currency-logoid": "country/US" },
+              { "s": "NASDAQ:SANA", "d": "", "logoid": "sana-biotechnology", "currency-logoid": "country/US" },
+              { "s": "NYSE:JOBY", "d": "", "logoid": "joby-aviation", "currency-logoid": "country/US" },
+              { "s": "NYSE:AMTM", "d": "", "logoid": "amentum", "currency-logoid": "country/US" }
+            ],
+            "originalTitle": "Forex"
+          }
+        ],
+        "support_host": "https://www.tradingview.com",
+        "backgroundColor": "#0f0f0f",
+        "width": "400",
+        "height": "550",
+        "showSymbolLogo": true,
+        "showChart": true
+      }
+      </script>
+    </div>
+    <!-- TradingView Widget END -->
+  </div>
+</body>
+</html>
